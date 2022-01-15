@@ -46,9 +46,9 @@ class LinearAlgebra:
                 diag[i,i]=0.0
                 eigenvalues[i]=0.0
             if eigenvalues[i] < 0.0:
-                diag[i,i]=pow(abs(eigenvalues[i]),k)*pow(complex(0,1),2*k)
+                diag[i,i]=pow(abs(eigenvalues.item(i)),k)*pow(complex(0,1),2*k)
             else:
-                diag[i,i]=pow(eigenvalues[i],k)
+                diag[i,i]=pow(eigenvalues.item(i),k)
         diag=np.matmul(np.matmul(eigenvectors,diag),np.transpose(eigenvectors))
         return diag
     
@@ -78,9 +78,9 @@ class LinearAlgebra:
                 diag[i,i]=0.0
                 eigenvalues[i]=0.0
             if eigenvalues[i] < 0.0:
-                diag[i,i]=pow(abs(eigenvalues[i]),k)*pow(complex(0,1),2*k)
+                diag[i,i]=pow(abs(eigenvalues.item(i)),k)*pow(complex(0,1),2*k)
             else:
-                diag[i,i]=pow(eigenvalues[i],k)
+                diag[i,i]=pow(eigenvalues.item(i),k)
         diag=np.matmul(np.matmul(eigenvectors,diag),np.conjugate(\
                        np.transpose(eigenvectors)))
         return diag  
@@ -95,13 +95,15 @@ class LinearAlgebra:
                        value will be considered as zero 
         Return: k'th Power of non-Hermitian matrix mat1
         """
-        eigenvalues,vl,eigenvectors,info=np.linalg.eig(mat1)
-        diag=np.zeros([eigenvectors.shape[0],eigenvectors.shape[1]],dtype=np.complex_)
+        eigenvalues,eigenvectors=np.linalg.eig(mat1)
+        diag=np.zeros([eigenvectors.shape[0],eigenvectors.shape[1]],\
+                      dtype=np.complex_)
         for i in range(0,eigenvectors.shape[0]):
             if abs(eigenvalues[i]) <= precision:
                 diag[i,i]=complex(0.0,0.0)
             else:
-                diag[i,i]=pow(eigenvalues[i],k)
+                diag[i,i]=pow(eigenvalues.item(i),k)
+        
         diag=np.matmul(np.matmul(eigenvectors,diag),np.linalg.inv(eigenvectors))
         return diag        
     

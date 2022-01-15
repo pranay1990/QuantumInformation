@@ -26,7 +26,7 @@ class PartialTr:
         Partial trace operation on a quantum state
         Input:
             state: real state vector
-            sub_tr: details of the subsystems to be not to be traced out
+            sub_tr: details of the subsystems not to be traced out
         Output:
             red_den: reduced density matrix
         """
@@ -128,7 +128,7 @@ class PartialTr:
         Partial trace operation on a density matrix
         Input:
             state: input real density matrix
-            sub_tr: details of the subsystem to be traced out
+            sub_tr: details of the subsystem not to be traced out
         Output:
             red_den: reduced density matrix
         """
