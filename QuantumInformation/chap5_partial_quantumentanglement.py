@@ -1,7 +1,7 @@
 """
 Created on Thu Aug 22 19:18:53 2019
 
-@author: Dr. M. S. Ramkarthik and Dr. Pranay Barkataki
+@authors: Dr. M. S. Ramkarthik and Dr. Pranay Barkataki
 """
 
 import numpy as np
