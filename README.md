@@ -11,7 +11,7 @@ Type the following command in the terminal of Linux or the command prompt of Win
 **pip install QuantumInformation**
 
 ## License
-Copyright 2021 CRC Press
+Copyright 2023 CRC Press
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, distribute, sublicense, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
