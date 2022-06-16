@@ -1,7 +1,7 @@
 """
 Created on Mon Jul 15 18:26:57 2019
 
-@author: Dr. M. S. Ramkarthik and Dr. Pranay Barkataki
+@authors: Dr. M. S. Ramkarthik and Dr. Pranay Barkataki
 """
 
 def recur_comb_add(mylist,vec,icount,sum2):
