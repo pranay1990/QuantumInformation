@@ -1,5 +1,9 @@
 # QuantumInformation package
-This package contains numerous numerical methods for various quantum information and computation problems. The explanation of each of the numerical methods are explained in detail in the following book, ***"An Object Oriented Python Cookbook for Quantum Information Theory and Quantum Computing"***. The book contains more than 100 numerical routines in python and it will be extremely useful for a practising physicist, both theoretical and experimentl, working in the areas of quantum information theory, quantum computing, quantum entanglement and also on condensed matter quantum many-body spin half chains. We also remark here that, there is a chapter devoted to numerical linear algebra procedures and a final chapter on random states and matrices too. We can safely and humbly say that, the computational libraries cover a wide spectrum of topics. The hyperlink to buy the book will soon be updated, stay tuned.
+This package contains numerous numerical methods for various quantum information and computation problems. The explanation of each of the numerical methods are explained in detail in the following book, ***"An Object Oriented Python Cookbook for Quantum Information Theory and Quantum Computing"***. The book contains more than 100 numerical routines in python and it will be extremely useful for a practising physicist, both theoretical and experimentl, working in the areas of quantum information theory, quantum computing, quantum entanglement and also on condensed matter quantum many-body spin half chains. We also remark here that, there is a chapter devoted to numerical linear algebra procedures and a final chapter on random states and matrices too. We can safely and humbly say that, the computational libraries cover a wide spectrum of topics. 
+
+![alt text](https://github.com/pranay1990/QuantumInformation/blob/main/python%20book%20image.jpg)
+
+You can easily buy the book by clicking [here](https://www.routledge.com/An-Object-Oriented-Python-Cookbook-in-Quantum-Information-Theory-and-Quantum/Ramkarthik-Barkataki/p/book/9781032256078)
 
 ## Files
 
