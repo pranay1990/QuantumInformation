@@ -1,7 +1,7 @@
 """
 Created on Mon Jul 15 18:26:57 2019
 
-@author: Pranay Barkataki and Payal Dineshbhai Solanki
+@author: Dr. M. S. Ramkarthik and Dr. Pranay Barkataki
 """
 
 def recur_comb_add(mylist,vec,icount,sum2):
@@ -17,11 +17,7 @@ def recur_comb_add(mylist,vec,icount,sum2):
     if icount==lenvec:
         return()
 
-"""
-Created on Sun Aug  4 21:11:55 2019
 
-@authors: Pranay Barkataki
-"""
 def RecurChainRL1(row,tot_spins,icount,mylist,shift):
     len_row=len(row)
     if icount<len_row:
@@ -62,11 +58,7 @@ def RecurChainRL1(row,tot_spins,icount,mylist,shift):
     if icount >= len_row:
         return()
 
-"""
-Created on Sun Aug  7 14:19:31 2019
 
-@authors: Pranay Barkataki
-"""
 def RecurChainRL2(row,tot_spins,icount,mylist,shift):
     len_row=len(row)
     if icount<len_row:
@@ -120,11 +112,7 @@ def RecurChainRL2(row,tot_spins,icount,mylist,shift):
     if icount >= len_row:
         return()
         
-"""
-Created on Sun Aug  7 23:09:23 2019
 
-@authors: Pranay Barkataki
-"""
 def RecurChainRL3(row,tot_spins,icount,mylist,shift):
     len_row=len(row)
     if icount<len_row:
@@ -165,11 +153,7 @@ def RecurChainRL3(row,tot_spins,icount,mylist,shift):
     if icount >= len_row:
         return()
 
-"""
-Created on Sun Aug  7 14:19:31 2019
 
-@authors: Pranay Barkataki
-"""
 def RecurChainRL4(row,tot_spins,icount,mylist,shift):
     len_row=len(row)
     if icount<len_row:

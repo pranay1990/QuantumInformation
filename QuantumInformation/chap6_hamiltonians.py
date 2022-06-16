@@ -1,7 +1,7 @@
 """
 Created on Sun Jul  7 17:42:28 2019
 
-@authors: Pranay Barkataki 
+@authors: Dr. M. S. Ramkarthik and Dr. Pranay Barkataki
 
 Nth neighbor inhomogeneous spin interaction Hamiltonian with periodic boundary 
 condition

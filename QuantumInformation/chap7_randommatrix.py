@@ -1,7 +1,7 @@
 """
 Created on Thu Aug 22 19:18:53 2019
 
-@author: Pranay Barkataki 
+@author: Dr. M. S. Ramkarthik and Dr. Pranay Barkataki
 """
 #import scipy.linalg.lapack as la
 import numpy as np
