@@ -1,0 +1,16 @@
+README.md
+setup.py
+QuantumInformation/RecurNum.py
+QuantumInformation/__init__.py
+QuantumInformation/chap2_nutsboltsquantum.py
+QuantumInformation/chap3_linearalgebra.py
+QuantumInformation/chap4_quantumtools.py
+QuantumInformation/chap5_partial_quantumentanglement.py
+QuantumInformation/chap6_hamiltonians.py
+QuantumInformation/chap7_randommatrix.py
+QuantumInformation.egg-info/PKG-INFO
+QuantumInformation.egg-info/SOURCES.txt
+QuantumInformation.egg-info/dependency_links.txt
+QuantumInformation.egg-info/not-zip-safe
+QuantumInformation.egg-info/requires.txt
+QuantumInformation.egg-info/top_level.txt
